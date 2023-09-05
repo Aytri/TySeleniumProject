@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-16T14:20:27 IST" name="Suite" finished-at="2023-08-16T14:20:28 IST" duration-ms="224">
+    <groups>
+      <group name="regression">
+        <method signature="CreateMOrg.createOrgTwo()[pri:0, instance:practiceMaven.CreateMOrg@7b98f307]" name="createOrgTwo" class="practiceMaven.CreateMOrg"/>
+        <method signature="LoginMOrg.loginOrg()[pri:0, instance:practiceMaven.LoginMOrg@639c2c1d]" name="loginOrg" class="practiceMaven.LoginMOrg"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="CreateMOrg.createOrg()[pri:0, instance:practiceMaven.CreateMOrg@7b98f307]" name="createOrg" class="practiceMaven.CreateMOrg"/>
+        <method signature="EditMOrg.editOrg()[pri:0, instance:practiceMaven.EditMOrg@33d512c1]" name="editOrg" class="practiceMaven.EditMOrg"/>
+        <method signature="LoginMOrg.loginOrgTwo()[pri:0, instance:practiceMaven.LoginMOrg@639c2c1d]" name="loginOrgTwo" class="practiceMaven.LoginMOrg"/>
+        <method signature="ModifyMOrg.modifyOrg()[pri:0, instance:practiceMaven.ModifyMOrg@515c6049]" name="modifyOrg" class="practiceMaven.ModifyMOrg"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2023-08-16T14:20:27 IST" name="Test" finished-at="2023-08-16T14:20:28 IST" duration-ms="224">
+      <class name="practiceMaven.LoginMOrg">
+        <test-method signature="loginOrg()[pri:0, instance:practiceMaven.LoginMOrg@639c2c1d]" started-at="2023-08-16T14:20:28 IST" name="loginOrg" finished-at="2023-08-16T14:20:28 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginOrg -->
+        <test-method signature="loginOrgTwo()[pri:0, instance:practiceMaven.LoginMOrg@639c2c1d]" started-at="2023-08-16T14:20:28 IST" name="loginOrgTwo" finished-at="2023-08-16T14:20:28 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginOrgTwo -->
+      </class> <!-- practiceMaven.LoginMOrg -->
+      <class name="practiceMaven.ModifyMOrg">
+        <test-method signature="modifyOrg()[pri:0, instance:practiceMaven.ModifyMOrg@515c6049]" started-at="2023-08-16T14:20:28 IST" name="modifyOrg" finished-at="2023-08-16T14:20:28 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyOrg -->
+      </class> <!-- practiceMaven.ModifyMOrg -->
+      <class name="practiceMaven.EditMOrg">
+        <test-method signature="editOrg()[pri:0, instance:practiceMaven.EditMOrg@33d512c1]" started-at="2023-08-16T14:20:28 IST" name="editOrg" finished-at="2023-08-16T14:20:28 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editOrg -->
+      </class> <!-- practiceMaven.EditMOrg -->
+      <class name="practiceMaven.CreateMOrg">
+        <test-method signature="createOrg()[pri:0, instance:practiceMaven.CreateMOrg@7b98f307]" started-at="2023-08-16T14:20:27 IST" name="createOrg" finished-at="2023-08-16T14:20:28 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrg -->
+        <test-method signature="createOrgTwo()[pri:0, instance:practiceMaven.CreateMOrg@7b98f307]" started-at="2023-08-16T14:20:28 IST" name="createOrgTwo" finished-at="2023-08-16T14:20:28 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgTwo -->
+      </class> <!-- practiceMaven.CreateMOrg -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
